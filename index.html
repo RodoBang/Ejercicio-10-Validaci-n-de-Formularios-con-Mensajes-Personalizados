@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>Ejercicio 1</title>
+    <link rel="stylesheet" href="Style.css">
+  </head>
+  <body>
+      <form novalidate>
+        <p>
+          <label for="mail">
+            <span>Por favor, introduzca una dirección de correo electrónico: </span>
+            <input type="email" id="mail" name="mail" required minlength="8" />
+            <span class="error" aria-live="polite"></span>
+          </label>
+        </p>
+        <button>Enviar</button>
+      </form>
+      <form novalidate>
+        <p>
+          <label for="password">
+            <span>Por favor, su contraseña: </span>
+            <input type="password" id="password" name="password"/>
+            <span class="error" aria-live="polite"></span>
+          </label>
+        </p>
+        <button>Enviar</button>
+      </form>
+</body>
+<script src="script.js"></script>
+</html>
